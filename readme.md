@@ -1,11 +1,11 @@
-# pkg-dir
+# package-directory
 
 > Find the root directory of a Node.js project or npm package
 
 ## Install
 
 ```sh
-npm install pkg-dir
+npm install package-directory
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install pkg-dir
 
 ```js
 // example.js
-import {packageDirectory} from 'pkg-dir';
+import {packageDirectory} from 'package-directory';
 
 console.log(await packageDirectory());
 //=> '/Users/sindresorhus/foo'
@@ -52,6 +52,6 @@ The directory to start searching from.
 
 ## Related
 
-- [pkg-dir-cli](https://github.com/sindresorhus/pkg-dir-cli) - CLI for this module
+- [package-directory-cli](https://github.com/sindresorhus/package-directory-cli) - CLI for this package
 - [package-up](https://github.com/sindresorhus/package-up) - Find the closest package.json file
 - [find-up](https://github.com/sindresorhus/find-up) - Find a file by walking up parent directories

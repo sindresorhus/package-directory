@@ -24,7 +24,7 @@ Find the root directory of a Node.js project or npm package.
 //                 └── example.js
 
 // example.js
-import {packageDirectory} from 'pkg-dir';
+import {packageDirectory} from 'package-directory';
 
 console.log(await packageDirectory());
 //=> '/Users/sindresorhus/foo'
@@ -49,7 +49,7 @@ Synchronously find the root directory of a Node.js project or npm package.
 //                 └── example.js
 
 // example.js
-import {packageDirectorySync} from 'pkg-dir';
+import {packageDirectorySync} from 'package-directory';
 
 console.log(packageDirectorySync());
 //=> '/Users/sindresorhus/foo'
