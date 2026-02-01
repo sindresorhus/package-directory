@@ -1,6 +1,6 @@
 {
 	"name": "package-directory",
-	"version": "8.1.0",
+	"version": "8.2.0",
 	"description": "Find the root directory of a Node.js project or npm package",
 	"license": "MIT",
 	"repository": "sindresorhus/package-directory",
