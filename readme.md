@@ -50,6 +50,15 @@ Default: `process.cwd()`
 
 The directory to start searching from.
 
+##### ignoreTypeOnlyPackageJson
+
+Type: `boolean`\
+Default: `false`
+
+Ignore `package.json` files that only contain the `type` field.
+
+This treats `{"type":"module"}` files as ESM scope markers instead of package roots.
+
 ## Related
 
 - [package-directory-cli](https://github.com/sindresorhus/package-directory-cli) - CLI for this package

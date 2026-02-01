@@ -5,6 +5,15 @@ export type Options = {
 	@default process.cwd()
 	*/
 	readonly cwd?: string;
+
+	/**
+	Ignore `package.json` files that only contain the `type` field.
+
+	This treats `{"type":"module"}` files as ESM scope markers instead of package roots.
+
+	@default false
+	*/
+	readonly ignoreTypeOnlyPackageJson?: boolean;
 };
 
 /**
